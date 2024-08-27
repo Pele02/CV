@@ -1,265 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pele Mihnea CV</title>
-        <link rel="stylesheet" href="./styles/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    </head>
-    <body>
 
-        <!-- Our App -->
-        <div class="app-wrapper">
-            <!-- Right side container -->
-            <div class="right-side-container">
-                <!-- About me section -->
-                <div>
-                    <h4 class="about-me-profession">System Test Engineer</h4>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pele Mihnea CV</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Add your custom styles here or keep this inline for quick changes */
+    </style>
+</head>
 
-                    <h1 class="about-me-name">Pele Mihnea-Alexandru</h1> 
+<body>
+    <div class="container">
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Me Section -->
+            <section class="about-me">
+                <h4 class="profession">System Test Engineer</h4>
+                <h1 class="name">Pele Mihnea-Alexandru</h1>
+                <p class="description">
+                    Enthusiastic university student working towards IT domain. Dedicated to continuous learning and growth, particularly in coding. Experienced with programming languages such as C, C#, C++, Java, and Python, with a focus on software development. Committed to expanding expertise.
+                </p>
+            </section>
 
-                    <p class="about-me-description"> Enthusiastic university student working towards IT domain. I am dedicated to
-                        continuous learning and growth, particularly in the realm of coding, my
-                        experience includes working with programming languages such as C, C#, C++,
-                        Java and Python, with a focus on software development. While I possess a
-                        foundational understanding of object-oriented programming, my hardware
-                        knowledge is at a basic level.
-                        I'm committed to expanding my expertise.
-                    </p>         
-                </div>
-
-                <!-- Work Experience Section -->
-                <div class="work-experience-section">
-                    <h3 class="work-experience-header">Work Experience</h3>
-
-                    <!-- 1st Company -->
-                    <div class="company-container">
-                        <h4 class="company-name">System Test Engineer, Continental Automotive Romania</h4>
-                        <p class="spend-time">December 2022 - Present</p>
-                        <ul class="experience-description">
-                            <li>
-                                I am currently interning as a System Test Engineer, where I have been
-                                assigned responsibilities in both security testing and system testing
-                                aspects of the project. In the security testing domain, I utilize Vector
-                                Test Studio (VTT) to create unit tests and employ CANoe for testing and
-                                interpreting the results. On the system testing side, I focus primarily on
-                                automation, where I enhance and optimize code using CAPL and Python,
-                                leveraging various tools such as Vector Tools like CANoe and Eclipse for
-                                automation and for flashing using tools like ODIS and WINIdea.
-                                Additionally, I have some exposure to working with DOORS and am                                    proficient in utilizing agile methodologies and Git for version control,
-                                with hands-on experience in Scrum meetings.
-                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Project Section -->
-                <div class="project-section">
-                    <h3 class="project-section-header">Projects</h3>
-                    <ul class="project-section-list">
+            <!-- Work Experience Section -->
+            <section class="work-experience">
+                <h3 class="section-header">Work Experience</h3>
+                <div class="experience">
+                    <h4 class="position">System Test Engineer, Continental Automotive Romania</h4>
+                    <p class="duration">December 2022 - Present</p>
+                    <ul class="details">
                         <li>
-                            <a href="https://github.com/Pele02/Python" class="project-name">Python Bootcamp Repository</a>
-                            <span class="project-info">...................</span>
-                            <span class="project-info">[Python]</span>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Pele02/Arduino" class="project-name">Sensor Implementation Project Repository</a>
-                            <span class="project-info">...................</span>
-                            <span class="project-info">[C++, Python(Flask), HTML5]</span>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Pele02/Cpp" class="project-name">Basic Log_In Repository</a>
-                            <span class="project-info">...................</span>
-                            <span class="project-info">[C++]</span>
-                        </li>
-                        <li>
-                            <a href="https://pele-mihnea-cv.netlify.app/" class="project-name">CV Web page</a>
-                            <span class="project-info">...................</span>
-                            <span class="project-info">[HTML5, CSS3]</span>
+                            Currently interning as a System Test Engineer, handling responsibilities in security and system testing. Utilizing Vector Test Studio (VTT) for unit tests and CANoe for testing and result interpretation. Focusing on automation with CAPL and Python, and using various tools like CANoe, Eclipse, ODIS, and WINIdea. Exposure to DOORS and agile methodologies.
                         </li>
                     </ul>
                 </div>
+            </section>
 
-                <!-- Education -->
-                <div class="work-experience-section">
-                    <h3>Education</h3>
-
-                    <!-- College -->
-                    <div class="education-container">
-                        <h4 class="company-name">University Politehnica of Timisoara</h4>
-                        <h4 class="university-specialization">System Engineering</h4>
-                        <p class="spend-time">October 2021 - Present</p>
-                        <ul class="experience-description">
-                            <li>
-                                During college, I gained foundational skills in C#, Microsoft Office, SQL,
-                                and Matlab, along with an intermediate understanding of C, C++, and
-                                Java. I possess solid Object-Oriented Programming principles in Java and
-                                C++, knowledge in working with JSON files using Maven, and expertise in
-                                conducting unit tests. These experiences have provided me with a solid
-                                technological foundation to build upon in my career.
-                                
-                            </li>
-                        </ul>
+            <!-- Projects Section -->
+            <section class="projects">
+                <h3 class="section-header">Projects</h3>
+                <div class="project-list">
+                    <div class="project-card">
+                        <a href="https://github.com/Pele02/Python" class="project-title">Python Bootcamp Repository</a>
+                        <p class="project-description">Collection of Python exercises and projects from a comprehensive bootcamp.</p>
+                        <p class="project-tech">Technologies: <span>[Python]</span></p>
                     </div>
-
-                    <!-- High School -->
-                    <div class="education-container">
-                        <h4 class="company-name">High School Diploma, Colegiul National "Moise Nicoara", Arad</h4>
-                        <p class="spend-time">September 2017 - July 2021</p>
-                        <ul class="experience-description">
-                            <li>
-                                Studied Mathematics and Informatics, with intensive English.
-                            </li>
-                        </ul>
+                    <div class="project-card">
+                        <a href="https://github.com/Pele02/Arduino" class="project-title">Sensor Implementation Project</a>
+                        <p class="project-description">Developed a sensor-based system using Arduino with a Flask and HTML5 web interface.</p>
+                        <p class="project-tech">Technologies: <span>[C++, Python (Flask), HTML5]</span></p>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://github.com/Pele02/Cpp" class="project-title">Basic Log-In System</a>
+                        <p class="project-description">Created a simple log-in system using C++ for basic authentication tasks.</p>
+                        <p class="project-tech">Technologies: <span>[C++]</span></p>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://pele-mihnea-cv.netlify.app/" class="project-title">CV Web Page</a>
+                        <p class="project-description">Designed and implemented a personal CV webpage to showcase skills and experience.</p>
+                        <p class="project-tech">Technologies: <span>[HTML5, CSS3]</span></p>
                     </div>
                 </div>
+            </section>
 
-                <!-- Courses -->
-                <div class="work-experience-section">
-                    <h3 class="work-experience-header">Courses</h3>
-
-                    <!-- Python -->
-                    <div class="company-container">
-                        <h4 class="company-name">The Complete Python Pro Bootcamp, Udemy</h4>
-                        <p class="spend-time">July 2023 - Present</p>
-                        <ul class="experience-description">
-                            <li>
-                                This intensive course equipped me with practical Python programming skills, 
-                                and I honed my ability to tackle complex coding challenges through project-based learning.
-                                
-                            </li>
-                            <li>
-                                The course is still ongoing, after I reached only intermediate level, so the
-                                    projects for the moment are basic projects like: Snake Game, Pong
-                                    Game.
-                            </li>
-                            <li>
-                                <a href="https://github.com/Pele02/Python" class="project-name">Course Repo
-                                <span>[Python]</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- GoIT Marathon -->
-                    <div class="company-container">
-                        <h4 class="company-name">Web CV, GoIT Marathon</h4>
-                        <p class="spend-time">March 2024 - April 2024</p>
-                        <ul class="experience-description">
-                            <li>
-                                In this marathon I made a web page which contains my CV, using basic HTML and CSS style.
-                            </li>
-
-                            <li>
-                                <a href="https://github.com/Pele02/CV" class="project-name">Web CV repo
-                                    <span>[HTML5, CSS3]</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+            <!-- Education Section -->
+            <section class="education">
+                <h3 class="section-header">Education</h3>
+                <div class="education-item">
+                    <h4 class="institution">University Politehnica of Timisoara</h4>
+                    <h5 class="specialization">System Engineering</h5>
+                    <p class="duration">October 2021 - Present</p>
+                    <ul class="details">
+                        <li>Gained foundational skills in C#, Microsoft Office, SQL, and Matlab. Intermediate understanding of C, C++, and Java. Solid principles in Object-Oriented Programming and unit testing.</li>
+                    </ul>
                 </div>
+                <div class="education-item">
+                    <h4 class="institution">High School Diploma, Colegiul National "Moise Nicoara", Arad</h4>
+                    <p class="duration">September 2017 - July 2021</p>
+                    <ul class="details">
+                        <li>Studied Mathematics and Informatics with intensive English.</li>
+                    </ul>
+                </div>
+            </section>
 
-                <!-- Extra-curricular activities -->
-                <div class="work-experience-section">
-                    <h3 class="work-experience-header">Extra-curricular activities</h3>
+            <!-- Courses Section -->
+            <section class="courses">
+                <h3 class="section-header">Courses</h3>
+                <div class="course-item">
+                    <h4 class="course-name">The Complete Python Pro Bootcamp, Udemy</h4>
+                    <p class="duration">July 2023 - Present</p>
+                    <ul class="details">
+                        <li>Equipped with practical Python programming skills and complex coding challenges through project-based learning.</li>
+                        <li>Currently ongoing with intermediate-level projects like Snake Game and Pong Game.</li>
+                        <li><a href="https://github.com/Pele02/Python" class="course-repo">Course Repo <span>[Python]</span></a></li>
+                    </ul>
+                </div>
+                <div class="course-item">
+                    <h4 class="course-name">Web CV, GoIT Marathon</h4>
+                    <p class="duration">March 2024 - April 2024</p>
+                    <ul class="details">
+                        <li>Developed a web page for my CV using basic HTML and CSS.</li>
+                        <li><a href="https://github.com/Pele02/CV" class="course-repo">Web CV Repo <span>[HTML5, CSS3]</span></a></li>
+                    </ul>
+                </div>
+            </section>
 
-                    <!-- Liga AC -->
-                    <div class="company-container">
-                        <h4 class="company-name">Member at Liga AC, Timisoara</h4>
-                        <p class="spend-time">October 2022 - October 2023</p>
-                        <ul class="experience-description">
-                            <li>
-                                Part of the Human Resources department
-                            </li>
-                            <li>
-                                Contributed to the organization and coordination of coding
-                                    competitions and events, such as "UniHack" and "iTEC".
-                            </li>
-                            <li>
-                                Worked as part of a team to ensure the smooth execution of these
-                                    projects, gaining valuable experience in project management and
-                                    teamwork.
-                            </li>
-                        </ul>
-                    </div>
+            <!-- Extra-curricular Activities Section -->
+            <section class="extra-curricular">
+                <h3 class="section-header">Extra-curricular Activities</h3>
+                <div class="activity-item">
+                    <h4 class="activity">Member at Liga AC, Timisoara</h4>
+                    <p class="duration">October 2022 - October 2023</p>
+                    <ul class="details">
+                        <li>Part of the Human Resources department.</li>
+                        <li>Organized coding competitions and events like "UniHack" and "iTEC".</li>
+                        <li>Gained valuable project management and teamwork experience.</li>
+                    </ul>
+                </div>
+                <div class="activity-item">
+                    <h4 class="activity">Member, Google Developer Student Club, Timisoara UPT</h4>
+                    <p class="duration">October 2023 - Present</p>
+                    <ul class="details">
+                        <li>DevOps team member working with Linux, Git, and Docker. Managed development environments and version control.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
 
-                    <!-- GDSC -->
-                    <div class="company-container">
-                        <h4 class="company-name">Member Google Developer Student Club, Timisoara UPT</h4>
-                        <p class="spend-time">October 2023 - Present</p>
-                        <ul class="experience-description">
-                            <li>
-                                As a DevOps team member in GDSC, I work with Linux, Git, and Docker. I
-                                    help set up and manage development environments, handle version
-                                    control with Git, and contribute to creating scalable application
-                                    deployments using Docker. My focus is on learning and applying these
-                                    technologies to support the team's collaborative efforts.
-                            </li>
-                        </ul>
-                    </div>
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+            <img src="images/Poza_CV.jpg" alt="Profile Picture" class="profile-picture">
+
+            <div class="contacts">
+                <h3 class="section-header">Contacts</h3>
+                <div class="contact-item">
+                    <span class="label">Phone:</span>
+                    <a href="tel:+40756947606" class="contact-info">+40 756 947 606</a>
+                </div>
+                <div class="contact-item">
+                    <span class="label">Email:</span>
+                    <a href="mailto:pelealex02@gmail.com" class="contact-info">pelealex02@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="label">LinkedIn:</span>
+                    <a href="https://www.linkedin.com/in/mihnea-pele/" class="contact-info">mihnea-pele</a>
+                </div>
+                <div class="contact-item">
+                    <span class="label">Github:</span>
+                    <a href="https://github.com/Pele02" class="contact-info">Repositories</a>
                 </div>
             </div>
 
-            <!-- Sidebar section -->
-            <aside class="sidebar-section">
-                <img src="images/Poza_CV.jpg" alt="Profile picture" width="270" class="sidebar-image">
+            <div class="tech-skills">
+                <h3 class="section-header">Tech Skills</h3>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>CAPL</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>C</li>
+                    <li>Arduino</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Microsoft Office</li>
+                    <li>Git</li>
+                    <li>Jira</li>
+                </ul>
+            </div>
 
-                <!-- Contacts information -->
-                <div class="contacts-container">
-                    <h3 class="contacts-header">Contacts</h3>
-                    <div class="contacts-element">
-                        <span class="contacts-item">Phone:</span>
-                        <a href="tel:+40756947606" class="contact-info">+40 756 947 606</a>
-                    </div>
-                    <div>
-                        <span class="contacts-item">Email:</span>
-                        <a href="mailto:pelealex02@gmail.com" class="contact-info">pelealex02@gmail.com</a>
-                    </div>
-                    <div>
-                        <span class="contacts-item">LinkedIn: </span>
-                        <a href="https://www.linkedin.com/in/mihnea-pele/" class="contact-info">mihnea-pele</a>
-                    </div>
-                    <div>
-                        <span class="contacts-item">Github: </span>
-                        <a href="https://github.com/Pele02" class="contact-info">Repositories</a>
-                    </div>
-                </div>
+            <div class="soft-skills">
+                <h3 class="section-header">Soft Skills</h3>
+                <ul class="skills-list">
+                    <li>Fast Learner</li>
+                    <li>Teamwork</li>
+                    <li>Adaptability</li>
+                    <li>Communication</li>
+                    <li>Ability to Multitask</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</body>
 
-                <!-- Tech skiils section -->
-                <div class="tech-skills-section">
-                    <h3 class="tech-skills-header">Tech Skills</h3>
-                    <ul class="tech-skills-list">
-                        <li>Python</li>
-                        <li>CAPL</li>
-                        <li>Java</li>
-                        <li>C++</li>
-                        <li>C</li>
-                        <li>Arduino</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Microsoft Office</li>
-                        <li>Git</li>
-                        <li>Jira</li>
-                    </ul>
-                </div>
-
-                <!-- Soft Skills -->
-                <div class="soft-skills-section">
-                    <h3 class="soft-skills-header">Soft Skills</h3>
-                    <ul class="soft-skills-list">
-                        <li>Fast Learner</li>
-                        <li>Teamwork</li>
-                        <li>Adaptability</li>
-                        <li>Communication</li>
-                        <li>Ability to Multitask</li>
-                        <li>Time Management</li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
-    </body>
 </html>

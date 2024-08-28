@@ -63,11 +63,6 @@ body {
 
 }
 
-.project-duration{
-    font-size: 15px;
-    
-}
-
 .short-description{
     font-size: 17px;
 }
@@ -128,18 +123,17 @@ body {
     padding: 15px;
 }
 
-.project-title , .course-name {
+.project-title {
     display: inline-block;
-    color: #161d2a; /* Blue color for links */
-    font-weight: 600; /* Bold text */
-    text-decoration: none; /* Remove underline */
+    color: #007BFF; /* Blue color for links */
+    font-weight: 600; 
+    text-decoration: underline; 
     border-bottom: 2px solid transparent; /* Space for underline effect */
     transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for effects */
 }
 
-.project-title:hover ,.course-name:hover{
+.project-title:hover, .course-name:hover {
     color: #0056b3; /* Darker blue on hover */
-    border-bottom: 2px solid #007bff; /* Add underline on hover */
 }
 
 .project-description, .project-tech {
@@ -162,18 +156,13 @@ body {
 .course-name {
     font-weight: 600;
     font-size: 18px;
-    color: #161d2a;
-    text-decoration: none;
+    color: #007BFF; /* Blue color for links */
+    text-decoration: underline; 
     display: block;
     margin-bottom: 10px;
 }
 
-.course-name:hover {
-    color: #0056b3;
-    border-bottom: 2px solid #007bff;
-}
-
-.project-duration {
+.course-duration {
     font-weight: 400;
     font-size: 15px;
     color: #595959;
@@ -181,14 +170,8 @@ body {
 }
 
 .certificate-link {
-    margin-top: 10px;
-}
-
-.course-repo {
-    color: #595959;
-    text-decoration: none;
-}
-
-.course-repo:hover {
+    color: #007BFF; /* Blue color for links */
     text-decoration: underline;
 }
+
+

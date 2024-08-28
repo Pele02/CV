@@ -63,6 +63,11 @@ body {
 
 }
 
+.project-duration{
+    font-size: 15px;
+    
+}
+
 .short-description{
     font-size: 17px;
 }
@@ -123,11 +128,18 @@ body {
     padding: 15px;
 }
 
-.project-title {
-    font-weight: 600;
-    font-size: 16px;
-    color: #161d2a;
-    text-decoration: none;
+.project-title , .course-name {
+    display: inline-block;
+    color: #161d2a; /* Blue color for links */
+    font-weight: 600; /* Bold text */
+    text-decoration: none; /* Remove underline */
+    border-bottom: 2px solid transparent; /* Space for underline effect */
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for effects */
+}
+
+.project-title:hover ,.course-name:hover{
+    color: #0056b3; /* Darker blue on hover */
+    border-bottom: 2px solid #007bff; /* Add underline on hover */
 }
 
 .project-description, .project-tech {
@@ -140,6 +152,45 @@ body {
     padding-left: 20px;
     border-left: 3px solid #E5E5E5;
     margin-top: 10px;
+}
+
+/* Courses Section */
+.courses {
+    margin-bottom: 40px;
+}
+
+.course-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #161d2a;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.course-name:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #007bff;
+}
+
+.project-duration {
+    font-weight: 400;
+    font-size: 15px;
+    color: #595959;
+    margin: 0;
+}
+
+.certificate-link {
+    margin-top: 10px;
+}
+
+.course-repo {
+    color: #595959;
+    text-decoration: none;
+}
+
+.course-repo:hover {
+    text-decoration: underline;
 }
 
 /* Responsive Design */
